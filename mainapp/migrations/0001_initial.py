@@ -39,7 +39,7 @@ class Migration(migrations.Migration):
                 ('deleted', models.BooleanField(default=False)),
             ],
         ),
-        migrations.CreateModel(
+        migrations.pCreateModel(
             name='Lesson',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
