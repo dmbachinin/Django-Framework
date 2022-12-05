@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'markdownify.apps.MarkdownifyConfig',
+<<<<<<< lesson_5
     'social_django',
+>>>>>>> master
     'mainapp',
     'authapp',
 ]
